@@ -1,0 +1,97 @@
+.hero-circle {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 0.5em;
+  position: relative;
+  border: 8px solid #5cb85c;
+  border-radius: 50%;
+}
+
+.hero-face {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-face:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  background: #5cb85c;
+  border-radius: 6px;
+  content: "";
+  display: block;
+}
+
+.hero-hour {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -4px 0 -4px -25%;
+  padding: 4px 0 4px 25%;
+  background: #5cb85c;
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  border-radius: 4px 0 0 4px;
+}
+
+.hero-minute {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40% -3px 0;
+  padding: 40% 3px 0;
+  background: #5cb85c;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  border-radius: 3px 3px 0 0;
+}
+
+.hero-second {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40% -1px 0 0;
+  padding: 40% 1px 0;
+  background: #5cb85c;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+
+.sleeping {
+  background: #FFAAAA;
+}
+.awake {
+  background: #38E88D;
+}
+.mentor {
+  background: #8CCBFF;
+}
+
+#timezones td:hover {
+  background-color: #ffff99;
+}
+
+.table-auto-width {
+  width: auto;
+}
+
+.table-borderless > thead > tr > th,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > tbody > tr > td,
+.table-borderless > tfoot > tr > td {
+  border-top: none;
+}
